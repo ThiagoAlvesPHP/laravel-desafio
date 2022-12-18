@@ -1,0 +1,139 @@
+.btn {
+    width: 100%;
+    background-color: transparent;
+    border: solid 1px #FFF;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: all ease .5s;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.area-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.area-input .input, select {
+    padding: 10px;
+    margin: 5px 0;
+    color: #000;
+    font-size: 16px;
+}
+
+.area-input select option {
+    color: #000;
+}
+
+/* alerts */
+.alert {
+    padding: 10px;
+    background-color: rgba(255, 165, 0, .7);
+}
+.alert .text {
+    text-align: center;
+    color: #000;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255,255,255, .5);
+}
+
+.navbar .block {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar__links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.7);
+    transition: all ease .5s;
+}
+
+.navbar__close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar__link {
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__redirect {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all ease .5s;
+}
+
+.navbar__mobile {
+    margin-right: 20px;
+}
+.navbar__mobileshow {
+    left: 0;
+}
+.navbar__mobileclose {
+    left: -100%;
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+    .navbar__mobile {
+        display: none;
+    }
+
+    .navbar__links {
+        position: unset;
+        background-color: transparent;
+        height: 60px;
+        flex-direction: row;
+        transition: all ease .5s;
+    }
+
+    .navbar__redirect {
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+
+    .navbar__redirect:hover {
+        transform: scale(1.03);
+        color: #000;
+    }
+
+    .navbar__close {
+        display: none;
+    }
+
+    .navbar__redirect {
+        font-size: 18px;
+    }
+}

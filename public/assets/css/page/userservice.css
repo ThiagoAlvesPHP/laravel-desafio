@@ -1,0 +1,20 @@
+.userservice__table {
+    width: 100%;
+}
+
+.userservice__table td {
+    padding: 10px 0;
+}
+
+.userservice__table p {
+    text-align: center;
+}
+
+.userservice__amount {
+    text-align: end;
+    padding: 20px;
+    font-size: 20px;
+}
+.userservice__amountprice {
+    font-size: 25px;
+}

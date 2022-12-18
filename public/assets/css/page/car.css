@@ -1,0 +1,55 @@
+hr {
+    margin: 20px 0;
+}
+.car__list .car__titles {
+    display: flex;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    justify-content: space-between;
+}
+.car__titles p {
+    text-align: center;
+    flex: 1;
+    color: #000;
+}
+
+.car__list .car__card {
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFF;
+    transition: all ease .5s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.car__list .car__card:hover {
+    transform: scale(1.01);
+}
+
+.car__card div {
+    text-align: center;
+    flex: 1;
+    font-size: 18px;
+}
+
+.car__action a {
+    margin: 0 5px;
+    transition: all ease .5s;
+}
+
+.car__edit {
+    color: green;
+}
+.car__edit:hover {
+    color: rgb(0, 204, 0);
+}
+
+.car__delete {
+    color: red;
+}
+.car__delete:hover {
+    color: rgb(255, 130, 130);
+}

@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home__content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 560px;
+    background-color: rgba(0,0,0, .7);
+}
+
+.home__title {
+    margin: 20px;
+    text-align: center;
+}
+
+.home__content hr, form, .link {
+    margin: 20px;
+}
+
+.home__content .link {
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+.home__content a.link:hover {
+    color: #DDD;
+}

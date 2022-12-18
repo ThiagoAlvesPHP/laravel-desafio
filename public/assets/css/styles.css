@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+body {
+    width: 100%;
+    background-color: #44415a;
+    font-size: 16px;
+    position: relative;
+}
+main {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.block {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1.title {
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
