@@ -4,3 +4,14 @@
 
 - PHP 8.1
 - Composer 2
+
+## Comandos
+
+- composer install
+- php artisan migrate
+- php artisan db:seed
+
+# Login Teste
+
+- admin@admin.com
+- admin123
